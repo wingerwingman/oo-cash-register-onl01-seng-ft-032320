@@ -1,4 +1,4 @@
 
 Class CashRegister
-
+  
 end
