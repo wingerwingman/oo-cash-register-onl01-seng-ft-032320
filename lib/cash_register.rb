@@ -23,7 +23,7 @@ class CashRegister
       @total -= @to_discount
       @total
      else
-       @total
+       return "After the discounttotal
     end
   end
   
