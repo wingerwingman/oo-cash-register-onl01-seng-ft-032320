@@ -9,10 +9,12 @@ class CashRegister
   end
   
   def add_item(items, price)
-    @items = items
-    # new_price = price * quantity
-    @total += price
+    @price = price
+    @total += price * quantity
     
+    
+    
+    @items = items
   end
   
 end
