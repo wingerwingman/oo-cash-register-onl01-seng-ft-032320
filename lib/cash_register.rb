@@ -1,7 +1,7 @@
 
 class CashRegister
   
-  def initialize(items)
+  def initialize
     @total = 0
     
   end
